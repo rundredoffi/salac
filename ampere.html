@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Résidence Ampère</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="text-center text-dark">
+        Les résidences : <span class="text-secondary">Ampère</span>
+      </h1>
+      <hr />
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3">
+            <div class="row">
+              <div class="col-2">
+                <img src="./photos/Ampere.jpg" alt="" class="img-fluid m-1" />
+              </div>
+              <div class="col-4 align-self-center">
+                <div class="card-body">
+                  <h4 class="card-title">Résidence Ampère</h4>
+                  <p class="card-text">
+                    Rue de la source <br />29150 CHATEAULIN
+                  </p>
+                </div>
+              </div>
+              <div class="col-6 align-self-center">
+                <div class="card-body">
+                  <div class="row border-start pb-5">
+                    <div class="col">
+                      <h6 class="card-subtitle text-muted text-center">
+                        Classification
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h6 class="card-subtitle text-muted text-center">
+                        Ascenseur
+                        <i class="bi bi-check-circle-fill text-success"></i>
+                      </h6>
+                    </div>
+                    <div class="col">
+                      <h6 class="card-subtitle text-muted text-center">
+                        Parking <i class="bi bi-x-circle-fill text-danger"></i>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Appartement T1</h5>
+                <p class="card-text">Loyer : 300,00€</p>
+                <img src="./photos/T1.jpg" alt="" class="card-img-bottom" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Appartement T2</h5>
+                <p class="card-text">Loyer : 330,00€</p>
+                <img
+                  src="./photos/T2.jpg"
+                  alt=""
+                  class="img-fluid card-img-bottom"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Appartement T3</h5>
+                <p class="card-text">Loyer : 360,00€</p>
+                <img
+                  src="./photos/T3.jpg"
+                  alt=""
+                  class="img-fluid card-img-bottom"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Appartement T4</h5>
+                <p class="card-text">Loyer : 390,00€</p>
+                <img
+                  src="./photos/T4.jpg"
+                  alt=""
+                  class="img-fluid card-img-bottom"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>
